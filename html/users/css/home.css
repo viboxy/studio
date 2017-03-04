@@ -22,6 +22,17 @@ nav .nav-item {
 
 .navbar-light .navbar-nav .nav-link {
     color: #950000;
+    border-bottom: solid #FEFEFE 2px;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #BC9000;
+    border-bottom: solid #BC9000 2px;
+}
+
+.dropdown-item {
+    color: #950000;
 }
 
 .mobile {
