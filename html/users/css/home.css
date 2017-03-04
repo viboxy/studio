@@ -1,0 +1,43 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+nav {
+    border-bottom: solid #9A9A9A 1px;
+    box-shadow: 0 0 5px #6E6E6E;
+}
+
+nav .nav-item {
+    padding-right: 20px;
+}
+
+.bg-faded {
+    color: #1d1e1f;
+    background-color: #FEFEFE;
+}
+
+.required {
+    color: #FE0101;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #950000;
+}
+
+.mobile {
+    display: none;
+}
+
+.web {
+    display: block;
+}
+
+@media only screen and (max-width: 992px){
+    .mobile {
+        display: block;
+    }
+
+    .web {
+        display: none;
+    }
+}
