@@ -1,0 +1,35 @@
+#webSlideshow {
+    margin: 50px auto;
+    position: relative;
+    width: 350px;
+    height: 240px;
+    padding: 10px;
+    box-shadow: 0 0 20px #1d1e1f;
+}
+
+#webSlideshow > div {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    box-shadow: 0 0 20px #1d1e1f;
+}
+
+#mobileSlideshow {
+    margin: 50px auto;
+    position: relative;
+    width: 350px;
+    height: 240px;
+    padding: 10px;
+    box-shadow: 0 0 20px #1d1e1f;
+}
+
+#mobileSlideshow > div {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    box-shadow: 0 0 20px #1d1e1f;
+}

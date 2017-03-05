@@ -8,9 +8,11 @@
     <link rel="stylesheet" href="../css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="../css/users.home.css">
     <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/slideshow.css">
     <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/slideshow.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 </head>
 <body>
@@ -49,6 +51,9 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
                     </li>
                 </ul>
 
@@ -106,22 +111,75 @@
     <!-- Quote -->
     <div class="container-fluid">
         <div class="row title" id="quote">
-            <span><span class="larger">“</span> There are no rules for good photographs, there are only good photographs. <span class="larger">”</span></span>
+            <span>
+                <span class="larger">“</span>
+                There are no rules for good photographs, there are only good photographs.
+                <span class="larger">”</span>
+            </span>
         </div>
     </div>
 
-    <!-- Services -->
-    <div class="container-fluid">
-        <div class="row" id="services">
-            <div class="col-md-4 title">
+    <!-- Web Services -->
+    <div class="container-fluid web">
+        <div class="row services">
+            <div class="col-md-4">
                 <div class="col-md-12">
                     <h1><span class="title">Our Services</span></h1>
                 </div>
-                <div class="col-md-12" id="homeCamera">
-                    <img src="../images/home.camera.png">
+                <div class="col-md-12">
+                    <div id="webSlideshow">
+                        <div>
+                            <img src="../images/slideshow1.jpg">
+                        </div>
+                        <div>
+                            <img src="../images/slideshow2.jpg">
+                        </div>
+                        <div>
+                            <img src="../images/slideshow3.jpg">
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-8">
+            <div class="col-md-8 servicesList">
+                <ul>
+                    <li>Architectural, Interiors and Exteriors</li>
+                    <li>Departmental Group Photos</li>
+                    <li>Digitisation and Scanning Services</li>
+                    <li>Event and Conference Photography</li>
+                    <li>Experiments and equipment</li>
+                    <li>Images of London</li>
+                    <li>Photos of the Graduation Ceremonies</li>
+                    <li>Portraits of Staff and Students</li>
+                    <li>Reportage images</li>
+                    <li>Staff and Students in their working environment, Labs, Offices and Workshops</li>
+                    <li>Student Group Photos</li>
+                    <li>360 Virtual Tours</li>
+                    <li>Works of Art, Museum objects and specimens</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mobile Services -->
+    <div class="container-fluid mobile">
+        <div class="row services">
+            <div class="col-sm-12">
+                <h1><span class="title">Our Services</span></h1>
+            </div>
+            <div class="col-md-12">
+                <div id="mobileSlideshow">
+                    <div>
+                        <img src="../images/slideshow1.jpg">
+                    </div>
+                    <div>
+                        <img src="../images/slideshow2.jpg">
+                    </div>
+                    <div>
+                        <img src="../images/slideshow3.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 servicesList">
                 <ul>
                     <li>Architectural, Interiors and Exteriors</li>
                     <li>Departmental Group Photos</li>
@@ -142,7 +200,20 @@
     </div>
 
     <!-- About Us -->
-    <div class="row title" id="aboutUs"></div>
+    <div class="container-fluid">
+        <div class="row aboutUs">
+            <div class="col-md-12 col-sm-12">
+                <h1><span class="title">About Us</span></h1>
+            </div>
+            <div class="col-md-12 col-sm-12" id="aboutUs">
+                So for this article I have scoured the Internet putting together 30 beautiful portfolio websites of
+                photographers. The designs are often very minimalist with a big focus on the photographs themselves.
+                Photographers will often share a small bio and links out to their social profiles, but for the most
+                part their websites are slimmed down to focus on the pictures. I hope this collection may inspire
+                other photographers to put together a small online portfolio for themselves as well.
+            </div>
+        </div>
+    </div>
 
     <!-- Sign In Modal -->
     <div class="modal fade" id="signInModal" tabindex="-1" role="dialog" aria-labelledby="signInModalTitle" aria-hidden="true">
