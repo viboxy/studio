@@ -11,6 +11,10 @@ nav .nav-item {
     padding-right: 20px;
 }
 
+.carousel {
+    box-shadow: 0 0 15px #6E6E6E;
+}
+
 .bg-faded {
     color: #1d1e1f;
     background-color: #FEFEFE;
@@ -72,6 +76,15 @@ nav .nav-item {
 
 .web {
     display: block;
+}
+
+#quote {
+    font-size: x-large;
+    margin: auto;
+    max-width: 70%;
+    text-align: center;
+    padding: 5%;
+    color: #790000;
 }
 
 @media only screen and (max-width: 992px){
