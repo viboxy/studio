@@ -127,6 +127,18 @@ nav .nav-item {
     color: #790000;
 }
 
+.contactUs {
+    background-color: #790000;
+    color: #FEFEFE;
+    padding: 2% 5%;
+    box-shadow: 0 0 15px #1d1e1f;
+}
+
+#contactUsClose:focus,
+#contactUsClose:hover {
+    box-shadow: 0 0 15px #FEFEFE;
+}
+
 @media only screen and (max-width: 992px){
     .mobile {
         display: block;
