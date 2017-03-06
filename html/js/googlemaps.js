@@ -1,3 +1,9 @@
+var imported = document.createElement('script');
+imported.setAttribute('async', 'async');
+imported.setAttribute('defer', 'defer');
+imported.src = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyAr_B-cYJ4gHf0CUTadKQbQtuBn1IvHWQs&callback=initMap';
+document.head.appendChild(imported);
+
 var marker;
 
 function initMap() {

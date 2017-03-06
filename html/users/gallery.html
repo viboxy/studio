@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="../css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="../css/users.home.css">
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/slideshow.css">
+    <link rel="stylesheet" href="../css/googlemaps.css">
+    <link rel="stylesheet" href="../css/users.gallery.css">
+    <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/slideshow.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-toggleable-md navbar-light fixed-top bg-faded">
+        <div class="row">
+            <div class="col-md-6 col-sm-6">
+                <a class="navbar-brand" href="#"><span style="color: #CB0000">Images</span>Studio</a>
+            </div>
+            <div class="col-md-6 col-sm-6 text-right">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbarToggler">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Estimations</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Your Account
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Account</a>
+                        <a class="dropdown-item" href="#">In Progress</a>
+                        <a class="dropdown-item" href="#">Your Albums</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us</a>
+                </li>
+            </ul>
+
+            <div class="web">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0 navbar-right">
+                    <li class="nav-item signIn" data-toggle="modal" data-target="#signInModal">
+                        <a class="nav-link" href="#">Sign In</a>
+                    </li>
+                    <li class="nav-item signUp" data-toggle="modal" data-target="#signUpModal">
+                        <a class="nav-link" href="#">Sign Up</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="mobile">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item signIn" data-toggle="modal" data-target="#signInModal">
+                        <a class="nav-link" href="#">Sign In</a>
+                    </li>
+                    <li class="nav-item signUp" data-toggle="modal" data-target="#signUpModal">
+                        <a class="nav-link" href="#">Sign Up</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row galleryTitle">
+            <h1><span class="title">Sample Albums</span></h1>
+        </div>
+    </div>
+
+    <!-- Web Sample Albums -->
+    <div class="container-fluid web">
+        <div class="gallery row">
+            <div class="col-md-3">
+                <div class="col-md-12">
+                    <img src="../images/slideshow1.jpg" />
+                </div>
+                <div class="col-md-12 text-center sampleTitle">
+                    <span>Sample 1</span>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="col-md-12">
+                    <img src="../images/slideshow1.jpg" />
+                </div>
+                <div class="col-md-12 text-center sampleTitle">
+                    <span>Sample 2</span>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="col-md-12">
+                    <img src="../images/slideshow1.jpg" />
+                </div>
+                <div class="col-md-12 text-center sampleTitle">
+                    <span>Sample 3</span>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="col-md-12">
+                    <img src="../images/slideshow1.jpg" />
+                </div>
+                <div class="col-md-12 text-center sampleTitle">
+                    <span>Sample 4</span>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="col-md-12">
+                    <img src="../images/slideshow1.jpg" />
+                </div>
+                <div class="col-md-12 text-center sampleTitle">
+                    <span>Sample 5</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mobile Sample Albums -->
+    <div class="container-fluid mobile">
+        <div class="gallery row">
+            <div class="col-sm-6">
+                <div class="col-sm-12">
+                    <img src="../images/slideshow1.jpg" />
+                </div>
+                <div class="col-sm-12 text-center sampleTitle">
+                    <span>Sample 1</span>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="col-sm-12">
+                    <img src="../images/slideshow1.jpg" />
+                </div>
+                <div class="col-sm-12 text-center sampleTitle">
+                    <span>Sample 2</span>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="col-sm-12">
+                    <img src="../images/slideshow1.jpg" />
+                </div>
+                <div class="col-sm-12 text-center sampleTitle">
+                    <span>Sample 3</span>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="col-sm-12">
+                    <img src="../images/slideshow1.jpg" />
+                </div>
+                <div class="col-sm-12 text-center sampleTitle">
+                    <span>Sample 4</span>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="col-sm-12">
+                    <img src="../images/slideshow1.jpg" />
+                </div>
+                <div class="col-sm-12 text-center sampleTitle">
+                    <span>Sample 5</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sign In Modal -->
+    <div class="modal fade" id="signInModal" tabindex="-1" role="dialog" aria-labelledby="signInModalTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="signInModalTitle">Sign In</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="signInUsername" class="form-control-label">Username<span class="required">*</span> : </label>
+                            <input type="text" name="username" id="signInUsername" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="signInPassword" class="form-control-label">Password<span class="required">*</span> : </label>
+                            <input type="password" name="password" id="signInPassword" class="form-control" required>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Sign In</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sign Up Modal -->
+    <div class="modal fade" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="signUpModalTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="signUpModalTitle">Sign Up</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="firstName" class="form-control-label">First Name<span class="required">*</span> : </label>
+                            <input type="text" name="firstName" id="firstName" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="lastName" class="form-control-label">Last Name<span class="required">*</span> : </label>
+                            <input type="text" name="lastName" id="lastName" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="form-control-label">Email<span class="required">*</span> : </label>
+                            <input type="email" name="email" id="email" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="username" class="form-control-label">Username<span class="required">*</span> : </label>
+                            <input type="text" name="username" id="username" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="password" class="form-control-label">Password<span class="required">*</span> : </label>
+                            <input type="password" name="password" id="password" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="confirmPassword" class="form-control-label">Confirm Password<span class="required">*</span> : </label>
+                            <input type="password" name="confirmPassword" id="confirmPassword" class="form-control" required>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
