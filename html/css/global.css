@@ -29,3 +29,28 @@
     transition: all 200ms ease-in;
     transform: scale(1.2);
 }
+
+.btn-primary {
+    background-color: #950000;
+    border-color: #950000;
+    color: #FEFEFE;
+}
+
+.btn-secondary {
+    border-color: #790000;
+    color: #790000;
+}
+
+.btn-primary:focus,
+.btn-primary:hover {
+    background-color: #790000;
+    border-color: #790000;
+    box-shadow: 0 0 5px #790000;
+}
+
+.btn-secondary:focus,
+.btn-secondary:hover {
+    border-color: #790000;
+    color: #790000;
+    box-shadow: 0 0 5px #790000;
+}
