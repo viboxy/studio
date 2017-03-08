@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="../css/googlemaps.css">
     <link rel="stylesheet" href="../css/users.gallery.css">
     <link rel="stylesheet" href="../css/users.estimations.css">
-    <link rel="stylesheet" href="../css/users.account.css">
+    <link rel="stylesheet" href="../css/users.profile.css">
     <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
@@ -20,7 +20,7 @@
     <script src="../js/users.home.js"></script>
     <script src="../js/users.gallery.js"></script>
     <script src="../js/users.estimations.js"></script>
-    <script src="../js/users.account.js"></script>
+    <script src="../js/users.profile.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 </head>
 <body>
@@ -59,16 +59,15 @@
                 <ul class="navbar-nav mr-auto mt-2 mt-lg-0 navbar-right">
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Your Account
+                            My Account
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item" href="#">Account</a>
                             <a class="dropdown-item" href="#">In Progress</a>
                             <a class="dropdown-item" href="#">Your Albums</a>
-                            <a class="dropdown-item" href="#">Sign Out</a>
                         </div>
                     </li>
-                    <li class="nav-item signIn" data-toggle="modal" data-target="#signInModal">
+                    <li class="nav-item">
                         <a class="nav-link" href="#">Sign Out</a>
                     </li>
                 </ul>
@@ -87,9 +86,45 @@
         </div>
     </nav>
 
-    <div class="container-fluid">
+    <div class="container-fluid skipNavBar">
         <div class="row">
-
+            <div class="col-md-4 col-sm-4 col-12">
+                <img id="myAccountProfilePicture" src="../images/profile.icon.png">
+            </div>
+            <div class="col-md-8 col-sm-8 col-12 mobileUpperMargin">
+                <div class="row">
+                    <div class="col-md-4 col-sm-4 col-4 text-right">
+                        <label>Name : </label>
+                    </div>
+                    <div class="col-md-8 col-sm-8 col-8">
+                        <label>Hemantha Dhanushka</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-sm-4 col-4 text-right">
+                        <label>Email : </label>
+                    </div>
+                    <div class="col-md-8 col-sm-8 col-8">
+                        <label>test@test.com</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-sm-4 col-4 text-right">
+                        <label>Phone Number : </label>
+                    </div>
+                    <div class="col-md-8 col-sm-8 col-8">
+                        <label>074 123 4567</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-sm-4 col-4 text-right">
+                        <label>Address : </label>
+                    </div>
+                    <div class="col-md-8 col-sm-8 col-8">
+                        <label>A45/2, Main Road, Kegalle</label>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </body>
