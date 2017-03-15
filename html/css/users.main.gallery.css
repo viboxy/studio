@@ -1,3 +1,30 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster+Two:400,700);
+
 .galleryItem {
     cursor: pointer;
+    font-family: 'Lobster Two', cursive;
+    font-size: 3em;
+    position: relative;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);
+}
+
+.galleryItem:hover {
+    cursor: pointer;
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.2);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.2);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.2);
+    transition: all 200ms ease-in;
+    transform: scale(1.2);
+    text-shadow: 0 0 5px #790000;
 }
