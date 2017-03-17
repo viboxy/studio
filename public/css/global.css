@@ -1,0 +1,218 @@
+@import url(http://fonts.googleapis.com/css?family=Lato);
+
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+body {
+    color: #790000;
+}
+
+footer {
+    padding: 2% 5%;
+    font-size: 0.8em;
+}
+
+/* Footer */
+footer .followUsOn {
+    color: #790000;
+    -webkit-font-smoothing: antialiased;
+    font-size: 0.8em;
+}
+
+footer .followUsOn a {
+    text-decoration: none;
+    color: #790000;
+    font-size: 1.2em;
+}
+
+footer .followUsOn p > a:hover {
+    color: #790000;
+    text-decoration:  underline;
+}
+
+footer .followUsOn h1, h2, h3, h4, h5, h6 {
+    margin:  1% 0 1% 0;
+}
+
+footer .followUsOn ._12 {
+    font-size: 1.2em;
+}
+
+footer .followUsOn ._14 {
+    font-size: 1.4em;
+}
+
+footer .followUsOn ul {
+    padding:0;
+    list-style: none;
+}
+
+footer .followUsOn .footer-social-icons {
+    width: 100%;
+    display:block;
+    margin: 0 auto;
+}
+
+footer .followUsOn .social-icon {
+    color: #790000;
+}
+
+footer .followUsOn ul.social-icons {
+    margin-top: 10px;
+}
+
+footer .followUsOn .social-icons li {
+    vertical-align: top;
+    display: inline;
+    height: 100px;
+}
+
+footer .followUsOn .social-icons a {
+    color: #790000;
+    text-decoration: none;
+}
+
+footer .followUsOn .fa-facebook {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: transparent;
+}
+
+footer .followUsOn .fa-facebook:hover {
+    background-color: #3b5998;
+    color: #FEFEFE;
+}
+
+footer .followUsOn .fa-twitter {
+    padding:10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: transparent;
+}
+
+footer .followUsOn .fa-twitter:hover {
+    background-color: #1DA1F2;
+    color: #FEFEFE;
+}
+
+footer .followUsOn .fa-youtube {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: transparent;
+}
+
+footer .followUsOn .fa-youtube:hover {
+    background-color: #cc181e;
+    color: #FEFEFE;
+}
+
+footer .followUsOn .fa-linkedin {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: transparent;
+}
+
+footer .followUsOn .fa-linkedin:hover {
+    background-color: #0084bf;
+    color: #FEFEFE;
+}
+
+footer .followUsOn .fa-google-plus {
+    padding:10px 9px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: transparent;
+}
+
+footer .followUsOn .fa-google-plus:hover {
+    background-color: #db4437;
+    color: #FEFEFE;
+}
+
+.skipNavBar {
+    margin-top: 100px;
+}
+
+.larger {
+    font-size: 1.2em;
+    font-family: "Adobe Caslon Pro";
+}
+
+.title {
+    cursor: default;
+    display:inline-block;
+    position: relative;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);
+}
+
+.title:hover {
+    cursor: default;
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.2);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.2);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.2);
+    transition: all 200ms ease-in;
+    transform: scale(1.2);
+}
+
+.btn-primary {
+    background-color: #950000;
+    border-color: #950000;
+    color: #FEFEFE;
+}
+
+.btn-secondary {
+    border-color: #790000;
+    color: #790000;
+}
+
+.btn-primary:focus,
+.btn-primary:hover {
+    background-color: #790000;
+    border-color: #790000;
+    box-shadow: 0 0 5px #790000;
+}
+
+.btn-secondary:focus,
+.btn-secondary:hover {
+    border-color: #790000;
+    color: #790000;
+    box-shadow: 0 0 5px #790000;
+}
+
+@media only screen and (max-width: 992px){
+    .mobile {
+        display: block;
+    }
+
+    .web {
+        display: none;
+    }
+}
