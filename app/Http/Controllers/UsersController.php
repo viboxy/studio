@@ -29,7 +29,7 @@ class UsersController extends Controller
 
         if ($user->save())
         {
-            return view('welcome');
+            return View::make('users.home');
         }
     }
 
@@ -37,13 +37,17 @@ class UsersController extends Controller
     {
         if (Auth::attempt(['username' => $request['username'], 'password' => $request['password']]))
         {
-            $success = true;
-            return View::make('welcome', compact('success'));
+            return View::make('users.home');
         }
         else
         {
-            $success = false;
-            return View::make('welcome', compact('success'));
+            return View::make('users.home');
         }
+    }
+
+    public function postSignOut()
+    {
+        Auth::logout();
+        return View::make('users.home');
     }
 }

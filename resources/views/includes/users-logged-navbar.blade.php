@@ -43,7 +43,7 @@
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Sign Out</a>
+                        <a class="nav-link" href="{{ route('signout') }}">Sign Out</a>
                     </li>
                 </ul>
             </div>
@@ -61,7 +61,7 @@
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Sign Out</a>
+                        <a class="nav-link" href="{{ route('signout') }}">Sign Out</a>
                     </li>
                 </ul>
             </div>

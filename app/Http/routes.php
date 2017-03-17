@@ -13,7 +13,7 @@
 
 Route::group(['middleware' => ['web']], function () {
     Route::get('/', function () {
-        return view('welcome');
+        return view('users.home');
     });
 
     Route::post('/signup', [
@@ -24,5 +24,10 @@ Route::group(['middleware' => ['web']], function () {
     Route::post('/signin', [
         'uses' => 'UsersController@postSignIn',
         'as' => 'signin'
+    ]);
+
+    Route::get('/signout', [
+        'uses' => 'UsersController@postSignOut',
+        'as' => 'signout'
     ]);
 });
