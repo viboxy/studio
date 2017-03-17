@@ -6,7 +6,7 @@
 
 @section('content')
     @if(Auth::check())
-        @include('includes.user-logged-navbar')
+        @include('includes.users-logged-navbar')
     @else
         @include('includes.users-default-navbar')
     @endif
