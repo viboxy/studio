@@ -27,7 +27,7 @@
                         <input type="text" name="username" id="username" class="form-control" required>
                     </div>
                     <div class="form-group">
-                        <label for="facebook" class="form-control-label">Facebook : </label>
+                        <label for="facebook" class="form-control-label">Facebook Reference : </label>
                         <input type="text" name="facebook" id="facebook" class="form-control">
                     </div>
                     <div class="form-group">
