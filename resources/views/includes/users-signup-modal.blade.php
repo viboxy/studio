@@ -8,8 +8,8 @@
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
-            <div class="modal-body">
-                <form>
+            {{Form::open(['action'=> 'UsersController@postSignUp'])}}
+                <div class="modal-body">
                     <div class="form-group">
                         <label for="firstName" class="form-control-label">First Name<span class="required">*</span> : </label>
                         <input type="text" name="firstName" id="firstName" class="form-control" required>
@@ -38,12 +38,13 @@
                         <label for="confirmPassword" class="form-control-label">Confirm Password<span class="required">*</span> : </label>
                         <input type="password" name="confirmPassword" id="confirmPassword" class="form-control" required>
                     </div>
-                </form>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Sign Up</button>
-            </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-primary" id="signUp">Sign Up</button>
+                    <input type="hidden" name="_token" value="{{ Session::token() }}">
+                </div>
+            {{Form::close()}}
         </div>
     </div>
 </div>
