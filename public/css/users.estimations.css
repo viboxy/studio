@@ -1,0 +1,16 @@
+.estimationTable {
+    margin: 80px 0 0 0;
+}
+
+.table {
+    border: 1px solid #790000 !important;
+}
+
+.table th {
+    background-color: #790000;
+    color: #FEFEFE;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #D9B2B2;
+}

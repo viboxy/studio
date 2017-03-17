@@ -1,0 +1,13 @@
+#myAccountProfilePicture {
+    width: 100%;
+}
+
+.mobileUpperMargin {
+    margin-top: 0;
+}
+
+@media only screen and (max-width: 992px){
+    .mobileUpperMargin {
+        margin-top: 10px;
+    }
+}
