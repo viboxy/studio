@@ -5,7 +5,11 @@
 @endsection
 
 @section('content')
-    @include('includes.users-default-navbar')
+    @if(Auth::check())
+        @include('includes.user-logged-navbar')
+    @else
+        @include('includes.users-default-navbar')
+    @endif
 
     <!-- Carousel -->
     <div class="col-md-12 col-sm-12 col-12 homeCarousel">

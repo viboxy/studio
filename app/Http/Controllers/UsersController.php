@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 
 use App\User;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\View;
 
 class UsersController extends Controller
@@ -30,6 +31,19 @@ class UsersController extends Controller
         {
             return view('welcome');
         }
+    }
 
+    public function postSignIn(Request $request)
+    {
+        if (Auth::attempt(['username' => $request['username'], 'password' => $request['password']]))
+        {
+            $success = true;
+            return View::make('welcome', compact('success'));
+        }
+        else
+        {
+            $success = false;
+            return View::make('welcome', compact('success'));
+        }
     }
 }
