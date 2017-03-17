@@ -20,7 +20,7 @@ class CreateUsersTable extends Migration
             $table->string('username');
             $table->string('fb_reference')->nullable();
             $table->string('password');
-            $table->integer('role')->default('1');
+            $table->integer('role')->default(config('studio.User.Role.Client'));
             $table->timestamps();
             $table->rememberToken();
         });
