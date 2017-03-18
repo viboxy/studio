@@ -3,8 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <title>Estimations</title>
-    <meta charset="UTF-8">
-    <title>Gallery</title>
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="../css/bootstrap-reboot.min.css">
@@ -16,8 +14,10 @@
     <link rel="stylesheet" href="../css/users.estimations.css">
     <link rel="stylesheet" href="../css/users.profile.css">
     <link rel="stylesheet" href="../css/users.main.gallery.css">
+    <link rel="stylesheet" href="../css/calendar.css">
     <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="../js/bootstrap.min.js"></script>
     <script src="../js/slideshow.js"></script>
     <script src="../js/users.home.js"></script>
@@ -83,58 +83,97 @@
     </nav>
 
     <div class="container-fluid">
-        <div class="row estimationTable">
-            <div class="col-md-12">
-                <table class="table table-striped">
-                    <thead>
-                        <tr>
-                            <th class="text-center">Service</th>
-                            <th class="text-center">Price</th>
-                            <th class="text-center">Action</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Architectural, Interiors and Exteriors</td>
-                            <td class="text-center">Rs. 2400</td>
-                            <td class="text-center">
-                                <button type="button" class="btn btn-primary">Add</button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Departmental Group Photos</td>
-                            <td class="text-center">Rs. 5000</td>
-                            <td class="text-center">
-                                <button type="button" class="btn btn-primary">Add</button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Digitisation and Scanning Services</td>
-                            <td class="text-center">Rs. 2300</td>
-                            <td class="text-center">
-                                <button type="button" class="btn btn-primary">Add</button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Event and Conference Photography</td>
-                            <td class="text-center">Rs. 1400</td>
-                            <td class="text-center">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Remove</button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Experiments and equipment</td>
-                            <td class="text-center">Rs. 2500</td>
-                            <td class="text-center">
-                                <button type="button" class="btn btn-primary">Add</button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td><strong>Total Cost</strong></td>
-                            <td colspan="2" class="text-center"><strong>Rs. 1400</strong></td>
-                        </tr>
-                    </tbody>
-                </table>
+        <div class="row skipNavBar">
+            <div class="col-md-12 col-sm-12 col-12">
+                <h1><span class="title">Estimations</span></h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" data-toggle="tab" href="#serviceCategory" role="tab">Service Category</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#estimationTable" role="tab">Estimation Table</a>
+            </li>
+        </ul>
+
+        <!-- Tab panes -->
+        <div class="tab-content">
+            <div class="tab-pane active" id="serviceCategory" role="tabpanel">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 col-12">
+                        <ul>
+                            <li>videography</li>
+                            <li>Photography</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-12">
+                        <!-- Calendar -->
+                        <div id="calendar"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane" id="estimationTable" role="tabpanel">
+                <div class="container-fluid">
+                    <div class="row estimationTable">
+                        <div class="col-md-12">
+                            <table class="table table-striped">
+                                <thead>
+                                <tr>
+                                    <th class="text-center">Service</th>
+                                    <th class="text-center">Price</th>
+                                    <th class="text-center">Action</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td>Architectural, Interiors and Exteriors</td>
+                                    <td class="text-center">Rs. 2400</td>
+                                    <td class="text-center">
+                                        <button type="button" class="btn btn-primary">Add</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Departmental Group Photos</td>
+                                    <td class="text-center">Rs. 5000</td>
+                                    <td class="text-center">
+                                        <button type="button" class="btn btn-primary">Add</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Digitisation and Scanning Services</td>
+                                    <td class="text-center">Rs. 2300</td>
+                                    <td class="text-center">
+                                        <button type="button" class="btn btn-primary">Add</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Event and Conference Photography</td>
+                                    <td class="text-center">Rs. 1400</td>
+                                    <td class="text-center">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Remove</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Experiments and equipment</td>
+                                    <td class="text-center">Rs. 2500</td>
+                                    <td class="text-center">
+                                        <button type="button" class="btn btn-primary">Add</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Total Cost</strong></td>
+                                    <td colspan="2" class="text-center"><strong>Rs. 1400</strong></td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

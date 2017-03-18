@@ -147,7 +147,7 @@ footer .followUsOn .fa-google-plus:hover {
 }
 
 .skipNavBar {
-    margin-top: 100px;
+    margin-top: 80px;
 }
 
 .larger {
@@ -156,6 +156,7 @@ footer .followUsOn .fa-google-plus:hover {
 }
 
 .title {
+    padding-left: 5%;
     cursor: default;
     display:inline-block;
     position: relative;

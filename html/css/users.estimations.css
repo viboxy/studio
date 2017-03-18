@@ -14,3 +14,11 @@
 .table-striped tbody tr:nth-of-type(odd) {
     background-color: #D9B2B2;
 }
+
+.nav-tabs .nav-link.active {
+    color: #BC9000;
+}
+
+.nav-tabs .nav-link {
+    color: #790000;
+}

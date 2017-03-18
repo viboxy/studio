@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d2cb488-def3-49da-8f9b-d14b267186d4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/users/profile.html" afterPath="$PROJECT_DIR$/html/users/profile.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/calendar.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/css/global.css" afterPath="$PROJECT_DIR$/html/css/global.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/css/users.estimations.css" afterPath="$PROJECT_DIR$/html/css/users.estimations.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/js/users.estimations.js" afterPath="$PROJECT_DIR$/html/js/users.estimations.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/users/estimations.html" afterPath="$PROJECT_DIR$/html/users/estimations.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/users/gallery.html" afterPath="$PROJECT_DIR$/html/users/gallery.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,41 +23,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.gallery.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/users/main.gallery.html">
+      <file leaf-file-name="global.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/css/global.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="533">
-              <caret line="146" column="13" lean-forward="false" selection-start-line="146" selection-start-column="13" selection-end-line="146" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="profile.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/html/users/profile.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="61" column="68" lean-forward="false" selection-start-line="61" selection-start-column="68" selection-end-line="61" selection-end-column="68" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="users.main.gallery.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/css/users.main.gallery.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="28" column="8" lean-forward="false" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/users/home.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-671">
-              <caret line="278" column="53" lean-forward="true" selection-start-line="278" selection-start-column="53" selection-end-line="278" selection-end-column="53" />
+            <state relative-caret-position="2686">
+              <caret line="158" column="21" lean-forward="false" selection-start-line="158" selection-start-column="21" selection-end-line="158" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -60,8 +36,28 @@
       <file leaf-file-name="estimations.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/users/estimations.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="82" column="10" lean-forward="true" selection-start-line="29" selection-start-column="4" selection-end-line="82" selection-end-column="10" />
+            <state relative-caret-position="374">
+              <caret line="115" column="43" lean-forward="false" selection-start-line="115" selection-start-column="43" selection-end-line="115" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="users.estimations.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/js/users.estimations.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="7" lean-forward="false" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="calendar.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/html/css/calendar.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="14" column="14" lean-forward="false" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -70,8 +66,8 @@
       <file leaf-file-name="gallery.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/users/gallery.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="533">
-              <caret line="218" column="13" lean-forward="false" selection-start-line="218" selection-start-column="13" selection-end-line="218" selection-end-column="13" />
+            <state relative-caret-position="408">
+              <caret line="24" column="82" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="24" selection-end-column="82" />
               <folding />
             </state>
           </provider>
@@ -80,8 +76,18 @@
       <file leaf-file-name="users.home.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/css/users.home.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="35" column="9" lean-forward="false" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="9" />
+            <state relative-caret-position="527">
+              <caret line="31" column="18" lean-forward="false" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="users.estimations.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/css/users.estimations.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="1" lean-forward="false" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -90,18 +96,8 @@
       <file leaf-file-name="users.gallery.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/css/users.gallery.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="global.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/css/global.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3383">
-              <caret line="199" column="32" lean-forward="false" selection-start-line="199" selection-start-column="4" selection-end-line="199" selection-end-column="32" />
+            <state relative-caret-position="51">
+              <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -129,6 +125,7 @@
       <find>title</find>
       <find>contactUs</find>
       <find>carousel</find>
+      <find>skip</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -147,25 +144,26 @@
         <option value="$PROJECT_DIR$/html/js/slideshow.js" />
         <option value="$PROJECT_DIR$/html/css/slideshow.css" />
         <option value="$PROJECT_DIR$/html/js/googlemaps.js" />
-        <option value="$PROJECT_DIR$/html/css/users.gallery.css" />
         <option value="$PROJECT_DIR$/html/js/users.gallery.js" />
         <option value="$PROJECT_DIR$/html/js/users.home.js" />
-        <option value="$PROJECT_DIR$/html/js/users.estimations.js" />
         <option value="$PROJECT_DIR$/html/css/googlemaps.css" />
-        <option value="$PROJECT_DIR$/html/css/users.estimations.css" />
         <option value="$PROJECT_DIR$/html/js/users.account.js" />
         <option value="$PROJECT_DIR$/html/users/account.html" />
         <option value="$PROJECT_DIR$/html/css/users.account.css" />
         <option value="$PROJECT_DIR$/html/js/users.profile.js" />
         <option value="$PROJECT_DIR$/html/css/users.profile.css" />
-        <option value="$PROJECT_DIR$/html/css/global.css" />
         <option value="$PROJECT_DIR$/html/css/users.home.css" />
         <option value="$PROJECT_DIR$/html/css/users.main.gallery.css" />
         <option value="$PROJECT_DIR$/html/users/home.html" />
-        <option value="$PROJECT_DIR$/html/users/estimations.html" />
-        <option value="$PROJECT_DIR$/html/users/gallery.html" />
         <option value="$PROJECT_DIR$/html/users/main.gallery.html" />
         <option value="$PROJECT_DIR$/html/users/profile.html" />
+        <option value="$PROJECT_DIR$/html/users/gallery.html" />
+        <option value="$PROJECT_DIR$/html/css/users.estimations.css" />
+        <option value="$PROJECT_DIR$/html/css/users.gallery.css" />
+        <option value="$PROJECT_DIR$/html/css/global.css" />
+        <option value="$PROJECT_DIR$/html/js/users.estimations.js" />
+        <option value="$PROJECT_DIR$/html/users/estimations.html" />
+        <option value="$PROJECT_DIR$/html/css/calendar.css" />
       </list>
     </option>
   </component>
@@ -197,6 +195,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -284,7 +283,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -382,22 +380,23 @@
       <workItem from="1489582657925" duration="48000" />
       <workItem from="1489590811080" duration="3977000" />
       <workItem from="1489642414130" duration="613000" />
-      <workItem from="1489711002754" duration="9956000" />
+      <workItem from="1489711002754" duration="11519000" />
+      <workItem from="1489794130925" duration="4508000" />
+      <workItem from="1489809350055" duration="3900000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107758000" />
+    <option name="totallyTimeSpent" value="117729000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22768533" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23524962" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28214827" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42351046" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -408,6 +407,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -423,14 +423,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/html/css/users.home.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="60" column="1" lean-forward="false" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/css/users.gallery.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -676,24 +668,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/js/users.estimations.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/css/googlemaps.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="32" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/css/users.estimations.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="41" lean-forward="false" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -718,65 +696,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/css/users.gallery.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/css/users.home.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="9" lean-forward="false" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/css/global.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3383">
-          <caret line="199" column="32" lean-forward="false" selection-start-line="199" selection-start-column="4" selection-end-line="199" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/users/gallery.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="533">
-          <caret line="218" column="13" lean-forward="false" selection-start-line="218" selection-start-column="13" selection-end-line="218" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/users/main.gallery.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="533">
+        <state relative-caret-position="2482">
           <caret line="146" column="13" lean-forward="false" selection-start-line="146" selection-start-column="13" selection-end-line="146" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/users/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-671">
+        <state relative-caret-position="4726">
           <caret line="278" column="53" lean-forward="true" selection-start-line="278" selection-start-column="53" selection-end-line="278" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/users/estimations.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="82" column="10" lean-forward="true" selection-start-line="29" selection-start-column="4" selection-end-line="82" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/css/users.main.gallery.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
+        <state relative-caret-position="476">
           <caret line="28" column="8" lean-forward="false" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
           <folding />
         </state>
@@ -784,8 +720,71 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html/users/profile.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="61" column="68" lean-forward="false" selection-start-line="61" selection-start-column="68" selection-end-line="61" selection-end-column="68" />
+        <state relative-caret-position="-408">
+          <caret line="27" column="4" lean-forward="false" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/css/users.home.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="18" lean-forward="false" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/users/gallery.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="82" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="24" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/css/users.estimations.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="1" lean-forward="false" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/css/users.gallery.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/css/global.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2686">
+          <caret line="158" column="21" lean-forward="false" selection-start-line="158" selection-start-column="21" selection-end-line="158" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/js/users.estimations.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="7" lean-forward="false" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/users/estimations.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="115" column="43" lean-forward="false" selection-start-line="115" selection-start-column="43" selection-end-line="115" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/css/calendar.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="14" column="14" lean-forward="false" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
           <folding />
         </state>
       </provider>
