@@ -22,3 +22,26 @@
 .nav-tabs .nav-link {
     color: #790000;
 }
+
+.subServices {
+    display: none;
+}
+
+.allServices:hover {
+    cursor: pointer;
+    color: #BC9000;
+}
+
+/* Services Breadcrumb */
+.breadcrumb {
+    background-color: transparent;
+}
+
+.breadcrumb-item a{
+    color: #790000;
+    cursor: pointer;
+}
+
+.breadcrumb .active{
+    color: #BC9000;
+}
