@@ -37,7 +37,8 @@ $(document).ready(function ($) {
         $(document).find('.breadcrumb').append(list);
         $(document).find('.breadcrumb').show('slow');
     });
-    
+
+    // control the breadcrumb and services according to breadcrumb selection
     $('body').on('click', '.breadcrumb-item a', function () {
         $(this).parent().nextAll().hide();
         $(document).find('#allServices').children().hide();
