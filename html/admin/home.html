@@ -2,9 +2,117 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Home</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="../css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="../css/users.home.css">
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/slideshow.css">
+    <link rel="stylesheet" href="../css/googlemaps.css">
+    <link rel="stylesheet" href="../css/users.gallery.css">
+    <link rel="stylesheet" href="../css/users.estimations.css">
+    <link rel="stylesheet" href="../css/users.profile.css">
+    <link rel="stylesheet" href="../css/users.main.gallery.css">
+    <link rel="stylesheet" href="../css/admin.home.css">
+    <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
 </head>
 <body>
-$END$
+    <nav class="navbar navbar-toggleable-md navbar-light fixed-top bg-faded">
+        <div class="row">
+            <div class="col-md-6 col-sm-6 col-6">
+                <a class="navbar-brand" href="#"><span style="color: #CB0000">Images</span>Studio</a>
+            </div>
+            <div class="col-md-6 col-sm-6 col-6 text-right">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbarToggler">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Users</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Packages</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">System Settings</a>
+                </li>
+            </ul>
+
+            <div class="web">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0 navbar-right">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            My Account
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Account</a>
+                            <a class="dropdown-item" href="#">In Progress</a>
+                            <a class="dropdown-item" href="#">Your Albums</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sign Out</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="mobile">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            My Account
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Account</a>
+                            <a class="dropdown-item" href="#">In Progress</a>
+                            <a class="dropdown-item" href="#">Your Albums</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sign Out</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row skipNavBar">
+            <div class="col-md-3 col-sm-6 col-12">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-12">
+                        <div class="text-center admin-home-icon">
+                            <span>Users</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-12">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-12">
+                        <div class="text-center admin-home-icon">
+                            <span>Packages</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-12">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-12">
+                        <div class="text-center admin-home-icon">
+                            <span>System Settings</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
