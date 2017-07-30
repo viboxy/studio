@@ -18,16 +18,16 @@ Route::group(['middleware' => ['web']], function () {
 
     Route::post('/signup', [
         'uses' => 'UsersController@postSignUp',
-        'as' => 'signup'
+        'as'   => 'signup'
     ]);
 
     Route::post('/signin', [
         'uses' => 'UsersController@postSignIn',
-        'as' => 'signin'
+        'as'   => 'signin'
     ]);
 
     Route::get('/signout', [
-        'uses' => 'UsersController@postSignOut',
-        'as' => 'signout'
+        'uses' => 'UsersController@getSignOut',
+        'as'   => 'signout'
     ]);
 });

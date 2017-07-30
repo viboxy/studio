@@ -1,0 +1,19 @@
+.admin-home-icon {
+    cursor: pointer;
+    border: solid 1px #790000;
+    margin: 1%;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.admin-home-icon:hover {
+    cursor: pointer;
+    border: solid 1px #790000;
+    background-color: #790000;
+    color: #fff;
+    margin: 1%;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0 0 5px #790000;
+}
