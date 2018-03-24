@@ -4,6 +4,7 @@
 
 body {
     color: #790000;
+    font-family: 'Raleway', sans-serif;
 }
 
 footer {
@@ -206,6 +207,21 @@ footer .followUsOn .fa-google-plus:hover {
     border-color: #790000;
     color: #790000;
     box-shadow: 0 0 5px #790000;
+}
+
+.panel {
+    border-color: #790000;
+}
+
+.panel .card-header{
+    color: #FEFEFE;
+    background-color: #790000;
+    text-align: center;
+}
+
+.panel .panel-form {
+    margin-top: 5px;
+    margin-bottom: 10px;
 }
 
 @media only screen and (max-width: 992px){
